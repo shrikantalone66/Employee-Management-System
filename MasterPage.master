@@ -1,0 +1,81 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+
+<script type="text/javascript">
+    function DisableBack() {
+        window.history.forward();
+    }
+    DisableBack();
+
+    window.onload = DisableBack;
+
+    window.onpageshow = function (evt) {
+        if (evt.persisted) DisableBack();
+    }
+    window.onunload = function () { void (0); }
+
+    </script>
+
+    <title></title>
+   
+     <link rel="stylesheet" type="text/css" href=" table-style.css" />
+    <style type="text/css">
+        .style1
+        {
+            height: 23px;
+        }
+        .style2
+        {
+            width: 402px;
+        }
+        .style3
+        {
+        }
+        .style4
+        {
+            width: 913px;
+        }
+    </style>
+   <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+   <link href="hover.css" rel="stylesheet" media="all">
+</head>
+<body background="web_img/back23.jpg">
+    <form id="form1" runat="server">
+    <div>
+    <center>
+        <table background="web_img/back5.jpg" style="border: thin solid #FFFFFF; width: 70%;">
+            <tr>
+                <td class="style4">
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/web_img/head1.jpg" 
+                        Width="100%" />
+                </td>
+            </tr>
+            <tr>
+                <td class="style4">
+                    <br />
+                    <br />
+                    <br />
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="style4">
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </td>
+            </tr>
+        </table>
+    </center>
+    </div>
+    </form>
+</body>
+</html>

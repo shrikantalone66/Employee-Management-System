@@ -1,0 +1,86 @@
+﻿.login-tbl{
+width: 55%;
+margin: 0 auto;
+background: rgba(15, 14, 14, 0.61);
+
+padding: 2% 2%;
+box-shadow: 0 0 0 1px #000, 0 0 0 2px #DED413, 0 0 0 6px #FCF46B, 0 0 0 7px #666, 0 0 0 10px #984008, 0 0 0 12px #000;
+
+}
+
+.login-tbl span{
+ color:#ffff7c!important;
+}
+
+.sub-link-a
+{
+    font-size: 20px!important;
+color:#4dfb2c !important;
+text-decoration: none!important;
+    }
+    
+.tbl-larg
+{
+    width: 67%;
+  
+    } 
+    
+    
+ .btn-style{   
+    height: 40px;
+width: 120px;
+color: #b30d0d;
+font-size: 16px;
+border: 2px solid;
+}
+
+#Menu1 ul
+{
+    width:100%!important;
+    }
+    
+    
+  #Menu1 a.dynamic
+  {
+      padding: 10px 5px 10px 5px!important;
+      background: #010F1D !important;
+      }
+      
+      
+ #Menu1 {
+   /* background-color: #F0F3F6!important;*/
+   background-color: #010F1D !important;
+   width: 100% !important;
+ }
+ 
+ #Menu1 a {
+    color: #B5B7BA!important;
+ }
+ 
+ .header {
+    text-align: center;
+    padding: 10px 0;}
+    
+    
+   #content
+   {
+       min-height: 590px;
+      padding-top: 4%;
+       }
+       
+.style8
+{
+    color:#fff;
+    }
+    
+    
+.head-new{
+background: maroon;
+border-bottom: 1.8px solid gold;
+box-sizing: border-box;
+border-top: 1.8px solid gold;}    
+
+.style4
+{
+  color:#fff;  
+    }
